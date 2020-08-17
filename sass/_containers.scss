@@ -1,0 +1,19 @@
+.row{
+  width: 100%;
+  // border: 1px solid red;
+}
+.col{
+  float: left;
+  padding: 10px;
+  margin: 0.1%;
+}
+
+.clearfix:after{
+  clear: both;
+  display: table;
+  content:"";
+}
+
+.text-container{
+
+}

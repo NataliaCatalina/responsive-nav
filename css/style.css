@@ -1,3 +1,23 @@
+.intro-image {
+  width: 100%; }
+
+.para {
+  line-height: 22px;
+  letter-spacing: 1.2px; }
+
+.row {
+  width: 100%; }
+
+.col {
+  float: left;
+  padding: 10px;
+  margin: 0.1%; }
+
+.clearfix:after {
+  clear: both;
+  display: table;
+  content: ""; }
+
 * {
   margin: 0;
   padding: 0;
@@ -5,44 +25,71 @@
 
 .top-nav {
   border: 1px solid black;
-  display: none; }
+  display: none;
+  background: #462066; }
   .top-nav ul li {
     list-style: none;
     height: 40px;
     width: 100%;
-    background: lightblue;
+    color: #FCF4D9;
     border: 1px solid black;
     font-size: 1.2rem;
-    font-weight: bold; }
+    font-weight: bold;
+    text-align: center; }
     .top-nav ul li a:link {
       color: blue;
       text-decoration: none; }
 
 .menu-icon {
   font-size: 45px;
-  color: blue;
+  color: #462066;
   margin: 15px; }
 
 .active {
   display: block; }
+
+.col-12 {
+  width: 100%;
+  height: auto;
+  border: 10px double #8ED2C9; }
 
 @media screen and (min-width: 501px) {
   .menu-icon {
     display: none; }
 
   .top-nav {
-    background: black;
+    background: #462066;
     padding: 20px;
-    display: block; }
+    display: block;
+    text-align: center; }
     .top-nav ul {
       padding: 20px; }
       .top-nav ul li {
         width: 120px;
         text-align: center;
-        background: whitesmoke;
-        border: 1px solid yellow;
-        display: inline; }
+        background: #FCF4D9;
+        border: 1px solid #00AAA0;
+        color: black;
+        display: inline;
+        padding: 0 5%; }
         .top-nav ul li a:link {
-          color: yellow; } }
+          color: yellow; }
+
+  .banner-container {
+    background: url("../images/pexels-eberhard-grossgasteiger-2088142.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    height: 400px; }
+
+  .banner-text {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    background-color: #FCF4D9; }
+
+  .col-4 {
+    width: 33%;
+    height: auto;
+    border: 10px double #8ED2C9; } }
 
 /*# sourceMappingURL=style.css.map */
